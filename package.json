@@ -1,0 +1,10 @@
+{
+  "name": "team incognito",
+  "version": "1.0.1",
+  "private": true,
+  "dependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "scripts": {},
+  "devDependencies": {}
+}

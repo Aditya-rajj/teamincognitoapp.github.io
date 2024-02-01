@@ -94,9 +94,8 @@ By @M_Shan_Op<br></a>
                   Download Rom File
                 </button></a>
                 <br>
-                <a href="https://www.pling.com/p/1835160"> <button class="button-secondary button bg-transparent">
-                  Recommended recovery
-                </button></a> 
+                  <button id="recovery" class="button-secondary button bg-transparent" onclick="copyingText()" >Recommend Recovery 
+                </button>
                 <br>
                 <a href="hyper os sweet v2.html"> <button class="button-secondary button bg-transparent">
                   Older Versions
@@ -151,7 +150,23 @@ By @M_Shan_Op<br></a>
         listenForUrlChanges()
         runAllScripts()
       }
+        function copyingText() {
+
      
+
+            /* Copy text into clipboard */
+
+            navigator.clipboard.writeText
+            
+
+                ("https://www.pling.com/p/1835160");
+
+        }
+        const changeNext = document.querySelector("#recovery");
+
+changeNext.addEventListener("click", function() {
+  changeNext.textContent = "Download link Copied!";
+});
 
 </script>
      

@@ -43,9 +43,35 @@ body::-webkit-scrollbar {
   border-radius: 32px;
   background-color: var(--dl-color-scheme-white);
 }
-
-
-
+.popup{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+     background-color: white;
+  backdrop-filter: blur(5px);     
+  border-radius: 30px;
+  padding: 9px 9px 9px 9px;
+  align-self: center;
+  backdrop-filter: blur(5px);
+  
+}
+#popupimg{
+    width: 50px;
+    
+}
+.okbtn{
+    background:darkslategrey;
+    color:var(--dl-color-scheme-white);
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    
+}
+     
 .input {
   color: var(--dl-color-scheme-green100);
   cursor: auto;
@@ -90,7 +116,8 @@ body::-webkit-scrollbar {
 }
 .button-secondary:hover {
   color: var(--dl-color-scheme-white);
-  background-color: var(--dl-color-scheme-orange100);
+  background-color: var(--dl-color-scheme-green80);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .button-primary {
   color: var(--dl-color-scheme-white);
@@ -119,6 +146,9 @@ body::-webkit-scrollbar {
   backdrop-filter: blur(5px);
   height: 20px;
   padding-left: 12px;
+}
+#notifi :hover{
+    font-size: 40px;
 }
 .navbar-burger-menu {
   display: none;
@@ -281,6 +311,7 @@ body{
   width: 50vw;
   margin-bottom: 20px;
   border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .devicelinks{
   display: flex;

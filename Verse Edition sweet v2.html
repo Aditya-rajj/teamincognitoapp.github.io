@@ -86,14 +86,15 @@ Added Thunder Violet Charging Animation <br>
 By @MShan0p<br></a>
                 
             </span> <br>
-           
-               <a href="https://devuploads.com/1p85ejebytha"> <button class="button-secondary button bg-transparent">
-                  Download Rom File
-                </button></a>
+            
+              <button id="notifi" class="button-secondary button bg-transparent" onclick="copyText()" >Copy Download Link
+                  
+                </button>
+              
                 <br>
-                <a href="https://devuploads.com/j4mdmtqw9r97"> <button class="button-secondary button bg-transparent">
-                  Recommended recovery
-                </button></a> 
+                <button id="recovery" class="button-secondary button bg-transparent" onclick="copyingText()" >Recommended Recovery
+                  
+                </button>
                 <br>
                 <a href="Verse Edition sweet v1.html"> <button class="button-secondary button bg-transparent">
                   Verse Edition V1
@@ -148,7 +149,43 @@ By @MShan0p<br></a>
         listenForUrlChanges()
         runAllScripts()
       }
+        function copyText() {
+
      
+
+            /* Copy text into clipboard */
+
+            navigator.clipboard.writeText
+            
+
+                ("https://devuploads.com/1p85ejebytha");
+
+        }
+        
+           function copyingText() {
+
+     
+
+            /* Copy text into clipboard */
+
+            navigator.clipboard.writeText
+            
+
+                ("https://devuploads.com/j4mdmtqw9r97");
+
+        }
+        
+        const changeText = document.querySelector("#notifi");
+
+changeText.addEventListener("click", function() {
+  changeText.textContent = "Download link Copied!";
+});
+
+const changeNext = document.querySelector("#recovery");
+
+changeNext.addEventListener("click", function() {
+  changeNext.textContent = "Download link Copied!";
+});
 
 </script>
      

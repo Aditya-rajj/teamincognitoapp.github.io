@@ -87,14 +87,14 @@ And My Verse Family <br>
 By @M_Shan_Op<br></a>
                 
             </span> <br>
-           
-               <a href="https://teamincognito1.github.io/Team-Incognito/versesweet.html"> <button class="button-secondary button bg-transparent">
-                  Download Rom File
-                </button></a>
+           <button id="notifi" class="button-secondary button bg-transparent" onclick="copyText()" >Copy Download Link
+                  
+                </button>
+              
                 <br>
-                <a href="https://www.pling.com/p/1835160"> <button class="button-secondary button bg-transparent">
-                  Recommended recovery
-                </button></a> 
+                <button id="recovery" class="button-secondary button bg-transparent" onclick="copyingText()" >Recommended Recovery
+                  
+                </button>
                 <br>
                 <a href="Verse Edition sweet v5 .html"> <button class="button-secondary button bg-transparent">
                   Older Versions
@@ -150,6 +150,45 @@ By @M_Shan_Op<br></a>
         runAllScripts()
       }
      
+   
+function copyText() {
+
+     
+
+            /* Copy text into clipboard */
+
+            navigator.clipboard.writeText
+            
+
+                ("https://teamincognito1.github.io/Team-Incognito/versesweet.html");
+
+        }
+        
+           function copyingText() {
+
+     
+
+            /* Copy text into clipboard */
+
+            navigator.clipboard.writeText
+            
+
+                ("https://www.pling.com/p/1835160");
+
+        }
+        
+        const changeText = document.querySelector("#notifi");
+
+changeText.addEventListener("click", function() {
+  changeText.textContent = "Download link Copied!";
+});
+
+const changeNext = document.querySelector("#recovery");
+
+changeNext.addEventListener("click", function() {
+  changeNext.textContent = "Download link Copied!";
+});
+
 
 </script>
      

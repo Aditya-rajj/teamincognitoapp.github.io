@@ -70,18 +70,17 @@
 
           <div class="home-max-width5 max-width">
             <span class="home-text050 beforeHeading" id="burgerbutton">Download Section</span> <br>
-           
-               <a href="https://devuploads.com/v5djt9fxf5xf"> <button class="button-secondary button bg-transparent">
-                  Download From devuploads
-                </button></a>
+            
+             <button id="notifi" class="button-secondary button bg-transparent" onclick="copyText()" > Download From devuploads
+                  
+                </button>
+              
                 <br>
-                <a href="https://drive.google.com/uc?id=1YDKJZExHYu1tp4MpiwiQJqaW10vZF6aW&export=download"> <button class="button-secondary button bg-transparent">
-                  Google Drive
-                </button></a> 
+                <button id="recovery" class="button-secondary button bg-transparent" onclick="copyingText()" > Google Drive
+                  
+                </button>
                 <br>
-                <a href="https://mega.nz/file/ayY3FLLY#goUnes4LXA70ZX2OOarKawz9zLbx_VrOed4WdpSSVf0"> <button class="button-secondary button bg-transparent">
-                  Mega
-                </button></a>
+                
 </div>
                       </div>      
                       
@@ -133,6 +132,45 @@
         runAllScripts()
       }
      
+     function copyText() {
+
+     
+
+            /* Copy text into clipboard */
+
+            navigator.clipboard.writeText
+            
+
+                ("https://devuploads.com/v5djt9fxf5xf");
+
+        }
+        
+           function copyingText() {
+
+     
+
+            /* Copy text into clipboard */
+
+            navigator.clipboard.writeText
+            
+
+                ("https://drive.google.com/uc?id=1YDKJZExHYu1tp4MpiwiQJqaW10vZF6aW&export=download");
+
+        }
+        
+        const changeText = document.querySelector("#notifi");
+
+changeText.addEventListener("click", function() {
+  changeText.textContent = "Download link Copied!";
+});
+
+const changeNext = document.querySelector("#recovery");
+
+changeNext.addEventListener("click", function() {
+  changeNext.textContent = "Download link Copied!";
+});
+
+
 
 </script>
      

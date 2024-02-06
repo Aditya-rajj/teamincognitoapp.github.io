@@ -43,35 +43,9 @@ body::-webkit-scrollbar {
   border-radius: 32px;
   background-color: var(--dl-color-scheme-white);
 }
-.popup{
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    background-color: blue;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-     background-color: white;
-  backdrop-filter: blur(5px);     
-  border-radius: 30px;
-  padding: 9px 9px 9px 9px;
-  align-self: center;
-  backdrop-filter: blur(5px);
-  
-}
-#popupimg{
-    width: 50px;
-    
-}
-.okbtn{
-    background:darkslategrey;
-    color:var(--dl-color-scheme-white);
-    width: 100px;
-    height: 30px;
-    border-radius: 30px;
-    
-}
-     
+
+
+
 .input {
   color: var(--dl-color-scheme-green100);
   cursor: auto;
@@ -117,7 +91,6 @@ body::-webkit-scrollbar {
 .button-secondary:hover {
   color: var(--dl-color-scheme-white);
   background-color: var(--dl-color-scheme-green80);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .button-primary {
   color: var(--dl-color-scheme-white);
@@ -146,9 +119,6 @@ body::-webkit-scrollbar {
   backdrop-filter: blur(5px);
   height: 20px;
   padding-left: 12px;
-}
-#notifi :hover{
-    font-size: 40px;
 }
 .navbar-burger-menu {
   display: none;
@@ -311,7 +281,6 @@ body{
   width: 50vw;
   margin-bottom: 20px;
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .devicelinks{
   display: flex;
@@ -670,3 +639,121 @@ z-index: 100;
 }
 
 
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: beige;
+    overflow: hidden;
+}
+
+.background span {
+    width: 50vmin;
+    height: 50vmin;
+    border-radius: 50vmin;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move;
+    animation-duration: 48;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.background span:nth-child(0) {
+    color: #7affff;
+    top: 6%;
+    left: 8%;
+    animation-duration: 23s;
+    animation-delay: -18s;
+    transform-origin: -15vw -14vh;
+    box-shadow: 100vmin 0 12.955856137656637vmin currentColor;
+}
+.background span:nth-child(1) {
+    color: #e37b9c;
+    top: 99%;
+    left: 11%;
+    animation-duration: 19s;
+    animation-delay: -11s;
+    transform-origin: -14vw -4vh;
+    box-shadow: 100vmin 0 13.041285495444955vmin currentColor;
+}
+.background span:nth-child(2) {
+    color: #e37b9c;
+    top: 29%;
+    left: 59%;
+    animation-duration: 9s;
+    animation-delay: -2s;
+    transform-origin: -10vw 16vh;
+    box-shadow: 100vmin 0 12.82357117953441vmin currentColor;
+}
+.background span:nth-child(3) {
+    color: #e37b9c;
+    top: 83%;
+    left: 94%;
+    animation-duration: 13s;
+    animation-delay: -13s;
+    transform-origin: -23vw -15vh;
+    box-shadow: -100vmin 0 13.10471483505233vmin currentColor;
+}
+.background span:nth-child(4) {
+    color: #7affff;
+    top: 68%;
+    left: 12%;
+    animation-duration: 11s;
+    animation-delay: -16s;
+    transform-origin: -21vw -4vh;
+    box-shadow: 100vmin 0 13.148808098875088vmin currentColor;
+}
+.background span:nth-child(5) {
+    color: #e37b9c;
+    top: 15%;
+    left: 49%;
+    animation-duration: 13s;
+    animation-delay: -3s;
+    transform-origin: -24vw 12vh;
+    box-shadow: 100vmin 0 12.698004192378217vmin currentColor;
+}
+.background span:nth-child(6) {
+    color: #FFACAC;
+    top: 47%;
+    left: 8%;
+    animation-duration: 19s;
+    animation-delay: -11s;
+    transform-origin: 0vw -22vh;
+    box-shadow: 100vmin 0 12.623307755205685vmin currentColor;
+}
+.background span:nth-child(7) {
+    color: #7affff;
+    top: 78%;
+    left: 69%;
+    animation-duration: 10s;
+    animation-delay: -10s;
+    transform-origin: 8vw 2vh;
+    box-shadow: -100vmin 0 13.068569981481986vmin currentColor;
+}
+.background span:nth-child(8) {
+    color: #FFACAC;
+    top: 67%;
+    left: 10%;
+    animation-duration: 15s;
+    animation-delay: -5s;
+    transform-origin: 2vw -10vh;
+    box-shadow: -100vmin 0 13.110203662138844vmin currentColor;
+}
+.background span:nth-child(9) {
+    color: #FFACAC;
+    top: 71%;
+    left: 53%;
+    animation-duration: 21s;
+    animation-delay: -14s;
+    transform-origin: -6vw 0vh;
+    box-shadow: -100vmin 0 13.38136110032786vmin currentColor;
+}
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}

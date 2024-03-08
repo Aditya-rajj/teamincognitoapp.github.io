@@ -778,7 +778,6 @@ z-index: 100;
   padding: 15px 15px 15px 15px;
   margin: 5px 5px 10px 10px;
   background-color: #feffee74;
-  backdrop-filter: blur(5px);
   border-radius: 30px;
  
 
@@ -888,7 +887,6 @@ z-index: 100;
   padding: 15px 15px 15px 15px;
   margin: 5px 5px 5px 5px;
   background-color: #feffee74;
-  backdrop-filter: blur(5px);
   border-radius: 18px;
 }
 .modapkdiv{

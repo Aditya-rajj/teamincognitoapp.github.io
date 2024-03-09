@@ -918,3 +918,14 @@ z-index: 100;
 .downloadlogo{
   width: 30px;
 }
+.notify{
+  width: 90vw;
+  height: 90vh;
+  background-color: #feffee9b;
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

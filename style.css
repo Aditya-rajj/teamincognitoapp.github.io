@@ -921,25 +921,28 @@ z-index: 100;
 }
 .notify{
   width: 90vw;
-  height: 90vh;
-<<<<<<< HEAD
+  height: 85vh;
   background-color: #aeaea8ac;
-=======
-  background-color: #feffee9b;
->>>>>>> c1a00275b5c926f410d4a9adfde34b85414315ef
   border-radius: 30px;
   text-align: center;
   padding: 5px 5px 5px 5px;
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
 }
 .notificationtext{
   width: 90vw;
   height: 60px;
   text-align: start;
-  margin-left: 10px
-=======
-  justify-content: center;
->>>>>>> c1a00275b5c926f410d4a9adfde34b85414315ef
+  margin: 10px 10px 10px 10px;
+
+}
+.notifydate{
+  background-color: rgba(0, 0, 0, 0.318);
+  width: 30vw;
+  align-self: center;
+  color: #FEFFEE;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+  padding: 2px 2px 2px 2px;
 }

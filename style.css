@@ -930,10 +930,11 @@ z-index: 100;
   flex-direction: column;
 }
 .notificationtext{
-  width: 90vw;
-  height: 60px;
-  text-align: start;
+  width: 100vw;
+  text-align: center;
   margin: 10px 10px 10px 10px;
+  border-radius: 30px;
+  padding: 3px 3px 3px 3px;
 
 }
 .notifydate{

@@ -881,7 +881,7 @@ z-index: 100;
 }
 .modapksection{
   width: 40vw;
-  height: 23vh;
+  height: 28vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -898,8 +898,7 @@ z-index: 100;
   overflow: scroll;
   padding-left: 7px;
   padding-right: 7px;
-  margin-top: -15px;
-  margin-bottom: -15px;
+  margin-bottom: 12px;
 
 }
 .apkversion{
